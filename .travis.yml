@@ -3,4 +3,8 @@ addons:
   apt:
     packages:
     - highlight
+before_install:
+- apt-cache policy highlight
+- highlight -O ansi .travis.yml
+
 script: true
