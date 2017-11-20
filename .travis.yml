@@ -3,3 +3,4 @@ addons:
   apt:
     packages:
     - highlight
+script: true
