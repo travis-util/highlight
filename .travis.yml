@@ -5,6 +5,7 @@ addons:
     - highlight
 before_install:
 - apt-cache policy highlight
-- highlight -O ansi .travis.yml
+- highlight -O ansi README.md
+# - highlight -O ansi .travis.yml # highlight: Unknown source file extension "yml".
 
 script: true
